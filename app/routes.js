@@ -11,6 +11,7 @@ import SettingPage from './containers/SettingPage';
 import MemberAddPage from './containers/member/MemberAddPage'
 import LoginPage from './containers/login/LoginPage'
 import MedicalCarePage from './containers/medicalCare/MedicalCarePage'
+import ReportByDisease from './containers/report/ReportByDisease'
 
 class Auth extends Component {
   render() {
@@ -23,6 +24,7 @@ class Auth extends Component {
           <Route path={match.url+"/home"}  component={HomePage} />
           <Route path={match.url+"/memberAdd"} component={MemberAddPage} />
           <Route path={match.url+"/medicalCare"} component={MedicalCarePage} />
+          <Route path={match.url+"/report/byDisease"} component={ReportByDisease} />
         </Switch>
       </App>
     )

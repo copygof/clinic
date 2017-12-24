@@ -128,7 +128,7 @@ class DynamicRule extends React.Component {
         {
           this.state.current === steps.length - 1
           &&
-          <Button type="primary" onClick={() => message.success('Processing complete!')}>Done</Button>
+          <Button type="primary" onClick={() => message.success('Processing complete!', this.props.onSubmit)}>Done</Button>
         }
         {
           this.state.current > 0

@@ -47,7 +47,6 @@ class SiderDemo extends React.Component {
               key="3"
               title={<span><Icon type="pie-chart" /><span>รายงาน</span></span>}
             >
-              <Menu.Item key="auth/report/byDay">ผู้ป่วยประจำวัน</Menu.Item>
               <Menu.Item key="auth/report/byDisease">ผู้ป่วยตามโรค</Menu.Item>
             </SubMenu>
             <SubMenu

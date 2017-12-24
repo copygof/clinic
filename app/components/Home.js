@@ -29,11 +29,6 @@ class Home extends React.Component {
                 <Card.Grid style={gridStyle}>
                   เพิ่มข้อมูลการรักษา
                 </Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
-                <Card.Grid style={gridStyle}>Content</Card.Grid>
                 <Card.Grid style={gridStyle}>
                   ออกจากระบบ
                 </Card.Grid>
